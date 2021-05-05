@@ -1,0 +1,73 @@
+<style>
+	/* CSS Code */
+	/* Heading */
+    body{
+        background-color: aqua;
+    }
+    html, head, div{
+        background-color: #f7f6e7;
+
+    }
+	.img1{
+        max-height:100px;
+    position: relative;
+    left: 40%;
+    }
+    .img2{
+        max-height:100px;
+    position: relative;
+    right: 40%;
+    }
+	
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 52px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+        font-family: 'Kaushan Script', cursive;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid #e40017;
+		margin: auto;
+		border-radius: 4px;
+		font-family: 'Kaushan Script', cursive;
+
+		background-color: #fce38a;
+		color: #fb743e;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: 'New Tegomin', serif;
+
+		color: #1b2021;
+		font-size: 1.4rem;
+	}
+
+	/* Main Contianer */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: #f5c0c0;
+		font-size: 1.4rem;
+	}
+</style>
